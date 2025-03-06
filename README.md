@@ -13,10 +13,27 @@ Pythonのみで作られた簡単にvenv環境を構築するのに便利なソ�
 * 環境内へのライブラリのインストール
 * 依存関係の記録
 
+## 使い方
+1. "出力フォルダを選択"と書かれたテキストの横にある"選択"ボタンをクリック  
+➤出力フォルダを選択
+
+2. "インストールするパッケージ名を入力"と書かれたテキストの横の入力フォームに`pip install`の後ろに続くライブラリ名を入力  
+例：NumPyをインストールする場合、通常はコマンドプロントで`pip install numpy`と記述するので入力フォームには`numpy`とのみ入力
+
+3. `依存関係を記録`をクリック（任意）  
+依存関係を記録するとrequirements.txtが生成されます
+
+
 ## 使用技術
 ### 言語
-* Python 3.12.9
+* `Python 3.12.9`
 
 ### ライブラリ
-* Tkinter
-* 
+- `os`
+- `subprocess`
+- `tkinter`
+  - `tkinter.ttk`
+  - `tkinter.filedialog`
+  - `tkinter.messagebox`
+- `threading`
+- `Pyinstaller`

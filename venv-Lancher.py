@@ -1,4 +1,3 @@
-import sys
 import os
 import subprocess
 import tkinter as tk
@@ -60,10 +59,7 @@ def record_requirements():
     with open(requirements_path, 'w') as f:
         subprocess.run([pip_path, "freeze"], stdout=f)
 
-
-
 root = tk.Tk()
-
 root.title("venv Launcher")
 root.geometry("335x250")
 root.resizable(False, False)
@@ -75,7 +71,7 @@ position_top = int(screen_height / 2 - window_height / 2)
 position_right = int(screen_width / 2 - window_width / 2)
 root.geometry(f'{window_width}x{window_height}+{position_right}+{position_top}')
 
-# vl-icon.icoのbase64エンコード結果
+# アイコン設定
 data = '''R0lGODlhAAEAAfQAAAAAAAAAAAEAAAABAAEBAAAAAQEAAQABAQEBAQICAgMCAgID
 AgICAwMCAwMDAwQEBAQFBAUFBAUEBQUFBQYGBgcHBwgICAkJCQoKCgsKCgsLCwwM
 DAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAAAQABAAX/ICCOZGmeaKqubOu+cCzP
@@ -119,11 +115,8 @@ hOEvtq61pGVhc9p0pmIUsMXtIXorlckC7ie/CG5s90JczbLEVipQrnBrmk3EEtKg
 oCyS7nR92lji2nC7GZnbWQ4rAu2C16ZD7eI5Mnneafj1FB3tzOZ0297N7tYSvBFv
 eetLkPfagq+FE1DP+LuNTgKnf7+NrmwJzAuxYswa5mUwTrmTWeNJeBrj8S3ebndh
 ZDxIrKbhSIe7cR9JySLCI/5pY0t74hTfJEB4ma+LpRG+Gtv4xjjOsY53zOMe+/jH
-QA6ykIdM5CIb+chITnIdQgAAOw==
-'''
-
+QA6ykIdM5CIb+chITnIdQgAAOw=='''
 root.tk.call('wm', 'iconphoto', root._w, tk.PhotoImage(data=data))
-
 
 # 出力フォルダ選択
 output_dir_path = tk.StringVar()

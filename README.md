@@ -1,7 +1,7 @@
 # venv Lancher-JA-ver.1.0.0  
 ## 概要  
 
-Pythonのみで作られた簡単にvenv環境を構築するのに便利なソフト。  
+Pythonのみで作られた一瞬でvenv環境を構築できるソフト。  
 いちいちコマンドプロントで記述して実行する必要がなくなります。    
 <p align="center">
   <img src="https://github.com/user-attachments/assets/66fb80f6-048b-49ee-aef2-0cbbf49ab7c8" width="35%" alt="使用画面">

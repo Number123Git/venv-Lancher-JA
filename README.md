@@ -1,4 +1,4 @@
-# venv Lancher-JA-ver.1.0.0  
+# venv Lancher-JA
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5aeddbc9-8707-4d1e-9715-d692771bc0f7" width="70%" alt="ロゴ">
 </p>

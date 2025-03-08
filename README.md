@@ -11,12 +11,11 @@ Pythonのみで作られた一瞬でvenv環境を構築できるソフト。
   <img src="https://github.com/user-attachments/assets/66fb80f6-048b-49ee-aef2-0cbbf49ab7c8" width="35%" alt="使用画面">
 </p>
 
-## 必要・推奨スペック
+## 対応OS
 ### 必要スペック
-* OS：Windows 7 SP1 以降（32ビットおよび64ビット）
-* CPU：1 GHz 以上のプロセッサ
-* メモリ：1 GB RAM
-* ディスク空き容量：10MB 以上
+| Windows10 | Windows11 | Mac | Linux |
+| :----: | :----: | :----: | :----: |
+| ◯ | ◯ | ✕ | ✕ |
 
 
 ※Mac, Linuxでは使用不可
